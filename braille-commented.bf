@@ -554,36 +554,22 @@
                     ]
                 ]>[
                     ; It is a #
+                    [<]                                         ; Go back to operation cell 5
+                    +++++ +++++[<+++++ +++++ +++++ ++++>-]--    ; Store # (188) in variable cell 3
+                    <<<                                         ; Go to braille start point at cell 1
+                    .>.>.[]                                     ; Print # and empty variable cell 3
                 ]
             ]>[
                 ; It is a "
+                ; NOT IMPLEMENTED
+                [<]<<<>>[]
             ]
         ]>[
-            ; It is a !
-        ]
-
-        [
-
             ; It is an exclamation point
             [<]                                 ; Go back to operation cell 5
             +++++ +++++[<+++++ +++++ +++++>-]   ; Store ! (150) in variable cell 3
             <<<                                 ; Go to braille start point at cell 1
             .>.>.[]                             ; Print ! and empty variable cell 3
-        ]>[
-            - ; Subtract 34 (") NOT IMPLEMENTED
-            [
-                [<]<<<>>[]
-            ]>[
-                - ; Subtract 35 (#)
-                [
-                    [<]                                         ; Go back to operation cell 5
-                    +++++ +++++[<+++++ +++++ +++++ ++++>-]--    ; Store # (188) in variable cell 3
-                    <<<                                         ; Go to braille start point at cell 1
-                    .>.>.[]                                     ; Print # and empty variable cell 3
-                ]>[
-                    ; here goes other chars
-                ]
-            ]
         ]
     ]>[
         ; It is a space
@@ -598,6 +584,6 @@
     ; to go back to cell 5 easily)
     ;
     >+
-    ; Move to the next immediate cell
+    ; Move to the next immediate cell/written character
     >
 ] ; Loop until all characters have been analyzed
