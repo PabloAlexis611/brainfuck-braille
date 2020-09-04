@@ -559,33 +559,35 @@
                         [<]                                     ; Go back to operation cell 5
                         +++++ +++++[<+++++ +++++ +++++ +>-]++   ; Store currency prefix (152) in variable cell 3
                         <<<                                     ; Go to braille start point at cell 1
-                        .>.>.[]                                 ; Print currency prefix and empty variable cell 3
+                        .>.>.[-]                                ; Print currency prefix and empty variable cell 3
                     ]
                 ]>[
                     ; It is a #
                     [<]                                         ; Go back to operation cell 5
                     +++++ +++++[<+++++ +++++ +++++ ++++>-]--    ; Store # (188) in variable cell 3
                     <<<                                         ; Go to braille start point at cell 1
-                    .>.>.[]                                     ; Print # and empty variable cell 3
+                    .>.>.[-]                                    ; Print # and empty variable cell 3
                 ]
             ]>[
-                ; It is a "
-                ; NOT IMPLEMENTED
-                [<]<<<>>[]
+                ; It is a double quote so print two single quotes
+                [<]                                 ; Go back to operation cell 5
+                +++++ +++++[<+++++ +++++ +++>-]++   ; Store ' (132) in variable cell 3
+                <<<                                 ; Go to braille start point at cell 1
+                .>.>.<<.>.>.[-]                     ; Print ' twice and empty variable cell 3
             ]
         ]>[
             ; It is an exclamation point
             [<]                                 ; Go back to operation cell 5
             +++++ +++++[<+++++ +++++ +++++>-]   ; Store ! (150) in variable cell 3
             <<<                                 ; Go to braille start point at cell 1
-            .>.>.[]                             ; Print ! and empty variable cell 3
+            .>.>.[-]                            ; Print ! and empty variable cell 3
         ]
     ]>[
         ; It is a space
         [<]                                 ; Go back to operation cell 5
         +++++ +++[<+++++ +++++ +++++ +>-]   ; Store a space (128) in variable cell 3
         <<<                                 ; Go to braille start point at cell 1
-        .>.>.[]                             ; Print space and empty cell 3
+        .>.>.[-]                            ; Print space and empty cell 3
     ]
 
     ;
