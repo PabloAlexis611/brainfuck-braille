@@ -1,3 +1,7 @@
+; Important braille rules for this code:
+; 1) Before any number goes a number prefix
+; 2) Double quotes can be printed as two single quotes
+
 ;
 ; Print input message
 ;
@@ -548,9 +552,14 @@
                             ]
                         ]>[
                             ; It is a %
+
                         ]
                     ]>[
-                        ; It is a $
+                        ; It is a $ or any currency prefix
+                        [<]                                     ; Go back to operation cell 5
+                        +++++ +++++[<+++++ +++++ +++++ +>-]++   ; Store currency prefix (152) in variable cell 3
+                        <<<                                     ; Go to braille start point at cell 1
+                        .>.>.[]                                 ; Print currency prefix and empty variable cell 3
                     ]
                 ]>[
                     ; It is a #
