@@ -1,6 +1,13 @@
 ; Important braille rules for this code:
 ; 1) Before any number goes a number prefix
 ; 2) Double quotes can be printed as two single quotes
+; 3) Punctuation prefix goes before apostrophe : ! period ? " ' ;
+;
+; Limitations:
+; 1) Math commas vs literary commas
+; 2) Beginning and ending single/double quotes
+; 3) Number prefix will be before every number instead of before every number sequence
+
 
 ;
 ; Print input message
