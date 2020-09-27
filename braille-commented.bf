@@ -517,9 +517,27 @@
                                                                                     ]
                                                                                 ]>[
                                                                                     ; It is a 3
+                                                                                    ; Numbers for preceded by a number prefix (#) with value (188)
+                                                                                    [<]                                         ; Go back to operation cell 4
+                                                                                    +++++ +++++ [<+++++ +++++ +++++ ++++ >-]--  ; Store # (188) in variable cell 3
+                                                                                    <<<                                         ; Go to braille start point at cell 1
+                                                                                    .>.>.[-]                                    ; Print # and empty variable cell 3
+                                                                                    >                                           ; Go back to operation cell 4
+                                                                                    +++++ +++++ [<+++++ +++++ +++++ >-]----     ; Store 3 (146) in variable cell 3
+                                                                                    <<<                                         ; Go to braille start point at cell 1
+                                                                                    .>.>.[-]                                    ; Print 3 and empty variable cell 3
                                                                                 ]
                                                                             ]>[
                                                                                 ; It is a 2
+                                                                                ; Numbers for preceded by a number prefix (#) with value (188)
+                                                                                [<]                                         ; Go back to operation cell 4
+                                                                                +++++ +++++ [<+++++ +++++ +++++ ++++ >-]--  ; Store # (188) in variable cell 3
+                                                                                <<<                                         ; Go to braille start point at cell 1
+                                                                                .>.>.[-]                                    ; Print # and empty variable cell 3
+                                                                                >                                           ; Go back to operation cell 4
+                                                                                +++++ +++++ [<+++++ +++++ +++ >-]++++       ; Store 2 (134) in variable cell 3
+                                                                                <<<                                         ; Go to braille start point at cell 1
+                                                                                .>.>.[-]                                    ; Print 2 and empty variable cell 3
                                                                             ]
                                                                         ]>[
                                                                             ; It is a 1
