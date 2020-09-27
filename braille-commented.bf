@@ -541,6 +541,10 @@
                                                     ]
                                                 ]>[
                                                     ; It is a plus sign
+                                                    [<]                                     ; Go back to operation cell 4
+                                                    +++++ +++++ [<+++++ +++++ +++++ ++>-]++ ; Store plus sign (172) in variable cell 3
+                                                    <<<                                     ; Go to braille start point at cell 1
+                                                    .>.>.[-]                                ; Print plus sign and empty variable cell 3
                                                 ]
                                             ]>[
                                                 ; It is a *
