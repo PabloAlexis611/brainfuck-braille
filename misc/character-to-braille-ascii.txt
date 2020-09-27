@@ -55,6 +55,7 @@ Signs
 ⠶=)=182
 ⠦=“=166
 ⠦=?=166
+⠌=/=140
 
 Prefixes
 ⠼=number prefix=188
@@ -62,10 +63,10 @@ Prefixes
 ⠈=accent prexix=136
 ⠨=italic prefix=168
 ⠐=contraction=144
-⠌=/=140
+⠸=punctuation prefix/contraction=184
 
 Math
-⠈⠴=%=136 180 (acceent prefix + ”)
+⠈⠴=%=136 180 (accent prefix + ”)
 ⠨⠅===168 133 (italic prefix + K)
 ⠨⠂=>=168 130 (italic prefix + comma)
 ⠐⠅=<=144 133 (contraction + K)
