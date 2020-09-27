@@ -532,6 +532,10 @@
                                                                 ]
                                                             ]>[
                                                                 ; It is a dot
+                                                                [<]                                     ; Go back to operation cell 4
+                                                                +++++ +++++ ++[<+++++ +++++ +++++ >-]-- ; Store a dot (178) in variable cell 3
+                                                                <<<                                     ; Go to braille start point at cell 1
+                                                                .>.>.[-]                                ; Print a dot and empty variable cell 3
                                                             ]
                                                         ]>[
                                                             ; It is a minus sign
