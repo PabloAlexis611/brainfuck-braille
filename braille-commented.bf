@@ -520,9 +520,9 @@
                                                                                         <<<                                         ; Go to braille start point at cell 1
                                                                                         .>.>.[-]                                    ; Print # and empty variable cell 3
                                                                                         >                                           ; Go back to operation cell 4
-                                                                                        +++++ +++++ ++ [<+++++ +++++ +++++ >-]--    ; Store 3 (178) in variable cell 3
+                                                                                        +++++ +++++ ++ [<+++++ +++++ +++++ >-]--    ; Store 4 (178) in variable cell 3
                                                                                         <<<                                         ; Go to braille start point at cell 1
-                                                                                        .>.>.[-]                                    ; Print 3 and empty variable cell 3
+                                                                                        .>.>.[-]                                    ; Print 4 and empty variable cell 3
                                                                                     ]
                                                                                 ]>[
                                                                                     ; It is a 3
