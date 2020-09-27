@@ -499,6 +499,15 @@
                                                                                                             ]
                                                                                                         ]>[
                                                                                                             ; It is a 9
+                                                                                                            ; Numbers for preceded by a number prefix (#) with value (188)
+                                                                                                            [<]                                         ; Go back to operation cell 4
+                                                                                                            +++++ +++++ [<+++++ +++++ +++++ ++++ >-]--  ; Store # (188) in variable cell 3
+                                                                                                            <<<                                         ; Go to braille start point at cell 1
+                                                                                                            .>.>.[-]                                    ; Print # and empty variable cell 3
+                                                                                                            >                                           ; Go back to operation cell 4
+                                                                                                            +++++ +++++ [<+++++ +++++ +++++ >-]--       ; Store 9 (148) in variable cell 3
+                                                                                                            <<<                                         ; Go to braille start point at cell 1
+                                                                                                            .>.>.[-]                                    ; Print 9 and empty variable cell 3
                                                                                                         ]
                                                                                                     ]>[
                                                                                                         ; It is a 8
