@@ -490,9 +490,22 @@
                                                                                                                         ]
                                                                                                                     ]>[
                                                                                                                         ; It is a less than symbol
+                                                                                                                        ; The less than symbol is like a contraction (144) and a K (133) put together
+                                                                                                                        [<]                                     ; Go back to operation cell 4
+                                                                                                                        +++++ +++++ [<+++++ +++++ ++++ >-]++++  ; Store contraction (144) in variable cell 3
+                                                                                                                        <<<                                     ; Go to braille start point at cell 1
+                                                                                                                        .>.>.[-]                                ; Print contraction and empty variable cell 3
+                                                                                                                        >                                       ; Go back to operation cell 4
+                                                                                                                        +++++ +++++ [<+++++ +++++ +++ >-]+++    ; Store K (133) in variable cell 3
+                                                                                                                        <<<                                     ; Go to braille start point at cell 1
+                                                                                                                        .>.>.[-]                                ; Print K and empty variable cell 3
                                                                                                                     ]
                                                                                                                 ]>[
                                                                                                                     ; It is a ;
+                                                                                                                    [<]                                     ; Go back to operation cell 4
+                                                                                                                    +++++ +++++ [<+++++ +++++ +++ >-]++++   ; Store ; (134) in variable cell 3
+                                                                                                                    <<<                                     ; Go to braille start point at cell 1
+                                                                                                                    .>.>.[-]                                ; Print ; and empty variable cell 3
                                                                                                                 ]
                                                                                                             ]>[
                                                                                                                 ; It is a :
