@@ -559,39 +559,47 @@
                             ]
                         ]>[
                             ; It is a %
-
+                            ; The % symbol is a combination of accent prefix and ” printed together
+                            [<]                                     ; Go back to operation cell 4
+                            +++++ +++++[<+++++ +++++ ++++ >-]----   ; Store accent prefix (136) in variable cell 3
+                            <<<                                     ; Go to braille start point at cell 1
+                            .>.>.[-]                                ; Print accent prefix and empty variable cell 3
+                            >                                       ; Go back to operation cell 4
+                            +++++ +++++ ++[<+++++ +++++ +++++ >-]   ; Store ” (180) in variable cell 3
+                            <<<                                     ; Go to braille start point at cell 1
+                            .>.>.[-]                                ; Print ” and empty variable cell 3
                         ]
                     ]>[
                         ; It is a $ or any currency prefix
-                        [<]                                     ; Go back to operation cell 5
+                        [<]                                     ; Go back to operation cell 4
                         +++++ +++++[<+++++ +++++ +++++ +>-]++   ; Store currency prefix (152) in variable cell 3
                         <<<                                     ; Go to braille start point at cell 1
                         .>.>.[-]                                ; Print currency prefix and empty variable cell 3
                     ]
                 ]>[
                     ; It is a #
-                    [<]                                         ; Go back to operation cell 5
+                    [<]                                         ; Go back to operation cell 4
                     +++++ +++++[<+++++ +++++ +++++ ++++>-]--    ; Store # (188) in variable cell 3
                     <<<                                         ; Go to braille start point at cell 1
                     .>.>.[-]                                    ; Print # and empty variable cell 3
                 ]
             ]>[
                 ; It is a double quote so print two single quotes
-                [<]                                 ; Go back to operation cell 5
+                [<]                                 ; Go back to operation cell 4
                 +++++ +++++[<+++++ +++++ +++>-]++   ; Store ' (132) in variable cell 3
                 <<<                                 ; Go to braille start point at cell 1
                 .>.>.<<.>.>.[-]                     ; Print ' twice and empty variable cell 3
             ]
         ]>[
             ; It is an exclamation point
-            [<]                                 ; Go back to operation cell 5
+            [<]                                 ; Go back to operation cell 4
             +++++ +++++[<+++++ +++++ +++++>-]   ; Store ! (150) in variable cell 3
             <<<                                 ; Go to braille start point at cell 1
             .>.>.[-]                            ; Print ! and empty variable cell 3
         ]
     ]>[
         ; It is a space
-        [<]                                 ; Go back to operation cell 5
+        [<]                                 ; Go back to operation cell 4
         +++++ +++[<+++++ +++++ +++++ +>-]   ; Store a space (128) in variable cell 3
         <<<                                 ; Go to braille start point at cell 1
         .>.>.[-]                            ; Print space and empty cell 3
