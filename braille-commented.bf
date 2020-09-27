@@ -538,6 +538,10 @@
                                                         ]
                                                     ]>[
                                                         ; It is a comma
+                                                        [<]                                 ; Go back to operation cell 4
+                                                        +++++ +++++ [<+++++ +++++ +++>-]    ; Store comma (130) in variable cell 3
+                                                        <<<                                 ; Go to braille start point at cell 1
+                                                        .>.>.[-]                            ; Print comma and empty variable cell 3
                                                     ]
                                                 ]>[
                                                     ; It is a plus sign
