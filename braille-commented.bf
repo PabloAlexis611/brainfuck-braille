@@ -544,6 +544,10 @@
                                                 ]
                                             ]>[
                                                 ; It is a *
+                                                [<]                                     ; Go back to operation cell 4
+                                                +++++ +++++ [<+++++ +++++ +++++ +>-]+   ; Store * (161) in variable cell 3
+                                                <<<                                     ; Go to braille start point at cell 1
+                                                .>.>.[-]                                ; Print * and empty variable cell 3
                                             ]
                                         ]>[
                                             ; It is a )
@@ -568,6 +572,7 @@
                                 ]
                             ]>[
                                 ; It is a &
+                                ; not defined yet
                             ]
                         ]>[
                             ; It is a %
