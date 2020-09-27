@@ -487,6 +487,15 @@
                                                                                                                             ]
                                                                                                                         ]>[
                                                                                                                             ; It is a =
+                                                                                                                            ; The = symbol is like an italic prefix (168) and a K (133) put together
+                                                                                                                            [<]                                         ; Go back to operation cell 4
+                                                                                                                            +++++ +++++ [<+++++ +++++ +++++ ++ >-]--    ; Store italic prefix (168) in variable cell 3
+                                                                                                                            <<<                                         ; Go to braille start point at cell 1
+                                                                                                                            .>.>.[-]                                    ; Print italic prefix and empty variable cell 3
+                                                                                                                            >                                           ; Go back to operation cell 4
+                                                                                                                            +++++ +++++ [<+++++ +++++ +++ >-]+++        ; Store K (133) in variable cell 3
+                                                                                                                            <<<                                         ; Go to braille start point at cell 1
+                                                                                                                            .>.>.[-]                                    ; Print K and empty variable cell 3
                                                                                                                         ]
                                                                                                                     ]>[
                                                                                                                         ; It is a less than symbol
