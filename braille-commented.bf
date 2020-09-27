@@ -478,12 +478,26 @@
                                                                                                                                         ]
                                                                                                                                     ]>[
                                                                                                                                         ; It is a @
+                                                                                                                                        ; not defined yet
                                                                                                                                     ]
                                                                                                                                 ]>[
                                                                                                                                     ; It is a ?
+                                                                                                                                    [<]                                         ; Go back to operation cell 4
+                                                                                                                                    +++++ +++++ [<+++++ +++++ +++++ ++ >-]----  ; Store ? (166) in variable cell 3
+                                                                                                                                    <<<                                         ; Go to braille start point at cell 1
+                                                                                                                                    .>.>.[-]                                    ; Print ? and empty variable cell 3
                                                                                                                                 ]
                                                                                                                             ]>[
                                                                                                                                 ; It is a greater than symbol
+                                                                                                                                ; The greater than symbol is like an italic prefix (168) and a comma (130) put together
+                                                                                                                                [<]                                         ; Go back to operation cell 4
+                                                                                                                                +++++ +++++ [<+++++ +++++ +++++ ++ >-]--    ; Store italic prefix (168) in variable cell 3
+                                                                                                                                <<<                                         ; Go to braille start point at cell 1
+                                                                                                                                .>.>.[-]                                    ; Print italic prefix and empty variable cell 3
+                                                                                                                                >                                           ; Go back to operation cell 4
+                                                                                                                                +++++ +++++ [<+++++ +++++ +++ >-]           ; Store comma (130) in variable cell 3
+                                                                                                                                <<<                                         ; Go to braille start point at cell 1
+                                                                                                                                .>.>.[-]                                    ; Print comma and empty variable cell 3
                                                                                                                             ]
                                                                                                                         ]>[
                                                                                                                             ; It is a =
