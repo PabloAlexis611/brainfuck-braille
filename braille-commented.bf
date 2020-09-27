@@ -496,6 +496,10 @@
                                                                                                                 ]
                                                                                                             ]>[
                                                                                                                 ; It is a :
+                                                                                                                [<]                                     ; Go back to operation cell 4
+                                                                                                                +++++ +++++ [<+++++ +++++ +++++ >-]---- ; Store : (146) in variable cell 3
+                                                                                                                <<<                                     ; Go to braille start point at cell 1
+                                                                                                                .>.>.[-]                                ; Print : and empty variable cell 3
                                                                                                             ]
                                                                                                         ]>[
                                                                                                             ; It is a 9
